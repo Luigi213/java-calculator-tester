@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.java.calculator.CalculatorTest" time="0.066" tests="40" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.java.calculator.EmployeeTest" time="0.009" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -58,44 +58,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="getMultiply[1]" classname="org.java.calculator.CalculatorTest" time="0.016"/>
-  <testcase name="getMultiply[2]" classname="org.java.calculator.CalculatorTest" time="0.002"/>
-  <testcase name="getMultiply[3]" classname="org.java.calculator.CalculatorTest" time="0.001"/>
-  <testcase name="getMultiply[4]" classname="org.java.calculator.CalculatorTest" time="0.001"/>
-  <testcase name="getMultiply[5]" classname="org.java.calculator.CalculatorTest" time="0"/>
-  <testcase name="getMultiply[6]" classname="org.java.calculator.CalculatorTest" time="0"/>
-  <testcase name="getMultiply[7]" classname="org.java.calculator.CalculatorTest" time="0"/>
-  <testcase name="getMultiply[8]" classname="org.java.calculator.CalculatorTest" time="0"/>
-  <testcase name="getMultiply[9]" classname="org.java.calculator.CalculatorTest" time="0"/>
-  <testcase name="getMultiply[10]" classname="org.java.calculator.CalculatorTest" time="0"/>
-  <testcase name="getAdd[1]" classname="org.java.calculator.CalculatorTest" time="0"/>
-  <testcase name="getAdd[2]" classname="org.java.calculator.CalculatorTest" time="0.001"/>
-  <testcase name="getAdd[3]" classname="org.java.calculator.CalculatorTest" time="0"/>
-  <testcase name="getAdd[4]" classname="org.java.calculator.CalculatorTest" time="0.002"/>
-  <testcase name="getAdd[5]" classname="org.java.calculator.CalculatorTest" time="0"/>
-  <testcase name="getAdd[6]" classname="org.java.calculator.CalculatorTest" time="0.001"/>
-  <testcase name="getAdd[7]" classname="org.java.calculator.CalculatorTest" time="0"/>
-  <testcase name="getAdd[8]" classname="org.java.calculator.CalculatorTest" time="0"/>
-  <testcase name="getAdd[9]" classname="org.java.calculator.CalculatorTest" time="0"/>
-  <testcase name="getAdd[10]" classname="org.java.calculator.CalculatorTest" time="0"/>
-  <testcase name="getSubtract[1]" classname="org.java.calculator.CalculatorTest" time="0"/>
-  <testcase name="getSubtract[2]" classname="org.java.calculator.CalculatorTest" time="0"/>
-  <testcase name="getSubtract[3]" classname="org.java.calculator.CalculatorTest" time="0.001"/>
-  <testcase name="getSubtract[4]" classname="org.java.calculator.CalculatorTest" time="0"/>
-  <testcase name="getSubtract[5]" classname="org.java.calculator.CalculatorTest" time="0"/>
-  <testcase name="getSubtract[6]" classname="org.java.calculator.CalculatorTest" time="0"/>
-  <testcase name="getSubtract[7]" classname="org.java.calculator.CalculatorTest" time="0"/>
-  <testcase name="getSubtract[8]" classname="org.java.calculator.CalculatorTest" time="0"/>
-  <testcase name="getSubtract[9]" classname="org.java.calculator.CalculatorTest" time="0.001"/>
-  <testcase name="getSubtract[10]" classname="org.java.calculator.CalculatorTest" time="0"/>
-  <testcase name="getDivide[1]" classname="org.java.calculator.CalculatorTest" time="0"/>
-  <testcase name="getDivide[2]" classname="org.java.calculator.CalculatorTest" time="0.001"/>
-  <testcase name="getDivide[3]" classname="org.java.calculator.CalculatorTest" time="0"/>
-  <testcase name="getDivide[4]" classname="org.java.calculator.CalculatorTest" time="0"/>
-  <testcase name="getDivide[5]" classname="org.java.calculator.CalculatorTest" time="0"/>
-  <testcase name="getDivide[6]" classname="org.java.calculator.CalculatorTest" time="0"/>
-  <testcase name="getDivide[7]" classname="org.java.calculator.CalculatorTest" time="0"/>
-  <testcase name="getDivide[8]" classname="org.java.calculator.CalculatorTest" time="0"/>
-  <testcase name="getDivide[9]" classname="org.java.calculator.CalculatorTest" time="0.001"/>
-  <testcase name="getDivide[10]" classname="org.java.calculator.CalculatorTest" time="0.001"/>
+  <testcase name="getTestLocaldate" classname="org.java.calculator.EmployeeTest" time="0.009">
+    <error message="Cannot invoke &quot;org.java.calculator.Employee.getName()&quot; because &quot;this.e&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "org.java.calculator.Employee.getName()" because "this.e" is null
+	at org.java.calculator.EmployeeTest.getTestLocaldate(EmployeeTest.java:65)
+</error>
+  </testcase>
 </testsuite>
